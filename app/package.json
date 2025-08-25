@@ -1,0 +1,17 @@
+{
+  "name": "aws-nodejs-devops-project",
+  "version": "1.0.0",
+  "description": "Node.js app deployed with Terraform, Docker, and GitHub Actions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "supertest": "^6.3.3"
+  }
+}
