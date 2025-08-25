@@ -37,3 +37,24 @@ This project demonstrates a full DevOps workflow:
 
 ## 🏗️ Project Structure
 
+aws-nodejs-devops-project_full/
+├── Dockerfile
+├── package.json
+├── src/ # Node.js application code
+│ ├── app.js
+│ └── ...
+├── terraform/
+│ ├── modules/
+│ │ ├── vpc/
+│ │ ├── alb/
+│ │ ├── ec2/
+│ │ ├── rds/
+│ │ └── ecr/
+│ ├── main.tf
+│ ├── variables.tf
+│ └── outputs.tf
+├── .github/
+│ └── workflows/
+│ └── ci-cd.yml # GitHub Actions workflow
+├── README.md
+└── .gitignore
